@@ -221,7 +221,7 @@ def train_model(
 
 if __name__ == '__main__':
     args = get_args()
-    set_seed(111451)
+    set_seed(11451)
 
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
