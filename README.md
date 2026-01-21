@@ -187,3 +187,18 @@ Original paper by Olaf Ronneberger, Philipp Fischer, Thomas Brox:
 [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 
 ![network architecture](https://i.imgur.com/jeDVpqF.png)
+
+
+## Credits & Provenance
+
+This repository is developed for educational and research purposes, specifically focusing on [Image Segmentation in Biomedical Engineering]. 
+
+The core architecture is built upon the implementation by [Author Name]. I have extended the original repository by:
+1. Integrating a custom data pipeline for [Name of your dataset].
+2. Refactoring the training script to support [e.g., WandB logging/Multi-GPU training].
+3. Fine-tuning the model for specific segmentation tasks.
+
+**Reference to original work:**
+> milesial. (2022). *Pytorch-Unet*. https://github.com/milesial/Pytorch-UNet.git
+
+Special thanks to the open-source community for making these resources accessible.
